@@ -46,15 +46,14 @@
 {
     [self doesNotRecognizeSelector:_cmd];
 }
-
 -(void)setToolColor:(UIColor*)toolColor
 {
     [self doesNotRecognizeSelector:_cmd];
 }
-
--(void)setThickness:(NSInteger)thickness
+-(void)setToolThickness:(CGFloat)thickness
 {
     [self doesNotRecognizeSelector:_cmd];
 }
+
 
 @end

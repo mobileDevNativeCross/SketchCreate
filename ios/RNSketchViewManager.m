@@ -66,12 +66,12 @@ RCT_EXPORT_METHOD(changeColor:(nonnull NSNumber *)reactTag toolColor:(NSString*)
     NSScanner *bScanner = [NSScanner scannerWithString:blueHex];
     [bScanner scanHexInt:&blueInt];
     
-    
+  
     [self.sketchViewContainer.sketchView setToolColor:[UIColor colorWithRed:(redInt/255.0) green:(greenInt/255.0) blue:(blueInt/255.0) alpha:1]];
 }
 
-RCT_EXPORT_METHOD(changeThickness:(nonnull NSNumber *)reactTag thickness:(NSInteger)thickness) {
-    [self.sketchViewContainer.sketchView setThickness:thickness];
+RCT_EXPORT_METHOD(changeThickness:(nonnull NSNumber *)reactTag thicknessSize:(NSString*)thickness) {
+    [self.sketchViewContainer.sketchView setToolThickness:[thickness floatValue]];
 }
 
 -(void)onSaveSketch:(SketchFile *) sketchFile

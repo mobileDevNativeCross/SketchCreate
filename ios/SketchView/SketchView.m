@@ -31,7 +31,7 @@
     [self setMultipleTouchEnabled:NO];
     penTool = [[PenSketchTool alloc] initWithTouchView:self];
     eraseTool = [[EraserSketchTool alloc] initWithTouchView:self];
-    
+
     [self setToolType:SketchToolTypePen];
     
     [self setBackgroundColor:[UIColor clearColor]];
@@ -69,8 +69,8 @@
     [penTool setToolColor:color];
 }
 
--(void)setThickness:(NSInteger)thickness{
-    [penTool setThickness:thickness];
+-(void)setToolThickness:(CGFloat)thickness{
+    [penTool setToolThickness:thickness];
 }
 
 // Only override drawRect: if you perform custom drawing.

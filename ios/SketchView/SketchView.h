@@ -12,8 +12,9 @@
 
 @interface SketchView : UIView
 
--(void) clear;
+-(void)clear;
 -(void)setToolType:(SketchToolType) toolType;
 -(void)setViewImage:(UIImage *)image;
-
+-(void)setToolColor:(UIColor *)color;
+-(void)setToolThickness:(NSInteger)thickness;
 @end

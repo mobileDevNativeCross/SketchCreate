@@ -27,6 +27,5 @@ typedef NS_ENUM(NSInteger, SketchToolType) {
 -(void)render;
 -(void)clear;
 -(void)setToolColor:(UIColor*)toolColor;
--(void)setThickness:(NSInteger)thickness;
-
+-(void)setToolThickness:(CGFloat)thickness;
 @end

@@ -22,6 +22,7 @@
 
 -(SketchFile *)saveToLocalCache
 {
+    NSLog(@"saveToLocalCache");
     UIImage *image = [SketchViewContainer imageWithView:self];
     
     NSURL *tempDir = [NSURL fileURLWithPath:NSTemporaryDirectory() isDirectory:YES];

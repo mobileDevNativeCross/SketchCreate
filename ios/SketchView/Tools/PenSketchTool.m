@@ -19,13 +19,12 @@
     self = [super initWithTouchView:touchView];
     
     paint = [[Paint alloc] init];
-    
-    [self setToolColor:[UIColor blackColor]];
-    [self setToolThickness:5];
+
+    [self setToolColor:[UIColor greenColor]];
+    [self setToolThickness:10];
     
     [self.path setLineCapStyle:kCGLineCapRound];
     [self.path setLineJoinStyle:kCGLineJoinRound];
-    
     
     return self;
 }
