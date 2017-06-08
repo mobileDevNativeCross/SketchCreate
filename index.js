@@ -9,7 +9,7 @@ import {
   Modal,
 } from 'react-native';
 import SketchView from './src/sketch';
-import { ColorPicker } from 'react-native-color-picker'
+import { ColorPicker } from './color_picker/src';
 
 
 const { width, height } = Dimensions.get('window');
