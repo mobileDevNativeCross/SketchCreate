@@ -1,128 +1,13 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "react-native-sketch-view",
-        "scope": null,
-        "escapedName": "react-native-sketch-view",
-        "name": "react-native-sketch-view",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
-      },
-      "/Users/opengeek/Downloads/drawSketch/Sketcher"
-    ],
-    [
-      {
-        "raw": "https://github.com/mobileDevNativeCross/SketchCreate.git",
-        "scope": null,
-        "escapedName": null,
-        "name": null,
-        "rawSpec": "https://github.com/mobileDevNativeCross/SketchCreate.git",
-        "spec": "git+https://github.com/mobileDevNativeCross/SketchCreate.git",
-        "type": "hosted",
-        "hosted": {
-          "type": "github",
-          "ssh": "git@github.com:mobileDevNativeCross/SketchCreate.git",
-          "sshUrl": "git+ssh://git@github.com/mobileDevNativeCross/SketchCreate.git",
-          "httpsUrl": "git+https://github.com/mobileDevNativeCross/SketchCreate.git",
-          "gitUrl": "git://github.com/mobileDevNativeCross/SketchCreate.git",
-          "shortcut": "github:mobileDevNativeCross/SketchCreate",
-          "directUrl": "https://raw.githubusercontent.com/mobileDevNativeCross/SketchCreate/master/package.json"
-        }
-      },
-      "/Users/admin/Desktop/asd/123/TestSketch"
-    ]
-  ],
-  "_from": "git+https://github.com/mobileDevNativeCross/SketchCreate.git",
-  "_id": "react-native-sketch-view@1.0.0",
-  "_inCache": true,
-  "_location": "/react-native-sketch-view",
-  "_nodeVersion": "7.7.3",
-  "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/react-native-sketch-view-1.0.0.tgz_1491994055509_0.9634788911789656"
-  },
-  "_npmUser": {
-    "name": "keshavkaul",
-    "email": "kaul.keshav@gmail.com"
-  },
-  "_npmVersion": "4.1.2",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "https://github.com/mobileDevNativeCross/SketchCreate.git",
-    "scope": null,
-    "escapedName": null,
-    "name": null,
-    "rawSpec": "https://github.com/mobileDevNativeCross/SketchCreate.git",
-    "spec": "git+https://github.com/mobileDevNativeCross/SketchCreate.git",
-    "type": "hosted",
-    "hosted": {
-      "type": "github",
-      "ssh": "git@github.com:mobileDevNativeCross/SketchCreate.git",
-      "sshUrl": "git+ssh://git@github.com/mobileDevNativeCross/SketchCreate.git",
-      "httpsUrl": "git+https://github.com/mobileDevNativeCross/SketchCreate.git",
-      "gitUrl": "git://github.com/mobileDevNativeCross/SketchCreate.git",
-      "shortcut": "github:mobileDevNativeCross/SketchCreate",
-      "directUrl": "https://raw.githubusercontent.com/mobileDevNativeCross/SketchCreate/master/package.json"
-    }
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "git+https://github.com/mobileDevNativeCross/SketchCreate.git#de7f4673a0eeae6600982d11b25e441a662fac33",
-  "_shasum": "688d49f5a39f768d3aebf77fbe942a994c76e085",
-  "_shrinkwrap": null,
-  "_spec": "https://github.com/mobileDevNativeCross/SketchCreate.git",
-  "_where": "/Users/admin/Desktop/asd/123/TestSketch",
-  "author": {
-    "name": "Keshav Kaul",
-    "email": "kaul.keshav@gmail.com",
-    "url": "https://github.com/keshavkaul"
-  },
-  "bugs": {
-    "url": "https://github.com/keshavkaul/react-native-sketch-view/issues"
-  },
   "dependencies": {},
-  "description": "Basic React Native touch based sketch view supporting iOS and Android",
+  "description": "Basic React Native touch based sketch editor supporting iOS and Android",
   "devDependencies": {},
-  "directories": {},
-  "dist": {
-    "shasum": "1b782368ab75527272a8eb8ddcb240a77230b68f",
-    "tarball": "https://registry.npmjs.org/react-native-sketch-view/-/react-native-sketch-view-1.0.0.tgz"
-  },
-  "gitHead": "3179c9d8c580f0acafb090e5022fb02fdc6d6890",
-  "homepage": "https://github.com/keshavkaul/react-native-sketch-view#readme",
-  "keywords": [
-    "react",
-    "react-native",
-    "ios",
-    "android",
-    "touch",
-    "sketch",
-    "draw"
-  ],
   "license": "MIT",
   "main": "index.js",
-  "maintainers": [
-    {
-      "name": "keshavkaul",
-      "email": "kaul.keshav@gmail.com"
-    }
-  ],
-  "name": "react-native-sketch-view",
+  "name": "sketch-editor",
   "optionalDependencies": {},
   "peerDependencies": {
     "react-native": "^0.42.0"
-  },
-  "readme": "ERROR: No README data found!",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/keshavkaul/react-native-sketch-view.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "version": "1.0.0"
 }
