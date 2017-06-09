@@ -11,9 +11,30 @@
         "type": "tag"
       },
       "/Users/opengeek/Downloads/drawSketch/Sketcher"
+    ],
+    [
+      {
+        "raw": "https://github.com/mobileDevNativeCross/SketchCreate.git",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "https://github.com/mobileDevNativeCross/SketchCreate.git",
+        "spec": "git+https://github.com/mobileDevNativeCross/SketchCreate.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:mobileDevNativeCross/SketchCreate.git",
+          "sshUrl": "git+ssh://git@github.com/mobileDevNativeCross/SketchCreate.git",
+          "httpsUrl": "git+https://github.com/mobileDevNativeCross/SketchCreate.git",
+          "gitUrl": "git://github.com/mobileDevNativeCross/SketchCreate.git",
+          "shortcut": "github:mobileDevNativeCross/SketchCreate",
+          "directUrl": "https://raw.githubusercontent.com/mobileDevNativeCross/SketchCreate/master/package.json"
+        }
+      },
+      "/Users/admin/Desktop/asd/123/TestSketch"
     ]
   ],
-  "_from": "react-native-sketch-view@latest",
+  "_from": "git+https://github.com/mobileDevNativeCross/SketchCreate.git",
   "_id": "react-native-sketch-view@1.0.0",
   "_inCache": true,
   "_location": "/react-native-sketch-view",
@@ -29,23 +50,32 @@
   "_npmVersion": "4.1.2",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "react-native-sketch-view",
+    "raw": "https://github.com/mobileDevNativeCross/SketchCreate.git",
     "scope": null,
-    "escapedName": "react-native-sketch-view",
-    "name": "react-native-sketch-view",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "https://github.com/mobileDevNativeCross/SketchCreate.git",
+    "spec": "git+https://github.com/mobileDevNativeCross/SketchCreate.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:mobileDevNativeCross/SketchCreate.git",
+      "sshUrl": "git+ssh://git@github.com/mobileDevNativeCross/SketchCreate.git",
+      "httpsUrl": "git+https://github.com/mobileDevNativeCross/SketchCreate.git",
+      "gitUrl": "git://github.com/mobileDevNativeCross/SketchCreate.git",
+      "shortcut": "github:mobileDevNativeCross/SketchCreate",
+      "directUrl": "https://raw.githubusercontent.com/mobileDevNativeCross/SketchCreate/master/package.json"
+    }
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/react-native-sketch-view/-/react-native-sketch-view-1.0.0.tgz",
-  "_shasum": "1b782368ab75527272a8eb8ddcb240a77230b68f",
+  "_resolved": "git+https://github.com/mobileDevNativeCross/SketchCreate.git#de7f4673a0eeae6600982d11b25e441a662fac33",
+  "_shasum": "688d49f5a39f768d3aebf77fbe942a994c76e085",
   "_shrinkwrap": null,
-  "_spec": "react-native-sketch-view",
-  "_where": "/Users/opengeek/Downloads/drawSketch/Sketcher",
+  "_spec": "https://github.com/mobileDevNativeCross/SketchCreate.git",
+  "_where": "/Users/admin/Desktop/asd/123/TestSketch",
   "author": {
     "name": "Keshav Kaul",
     "email": "kaul.keshav@gmail.com",

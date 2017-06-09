@@ -20,8 +20,8 @@
     
     paint = [[Paint alloc] init];
 
-    [self setToolColor:[UIColor greenColor]];
-    [self setToolThickness:10];
+    [self setToolColor:[UIColor blackColor]];
+    [self setToolThickness:5];
     
     [self.path setLineCapStyle:kCGLineCapRound];
     [self.path setLineJoinStyle:kCGLineJoinRound];
