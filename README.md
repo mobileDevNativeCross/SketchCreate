@@ -18,18 +18,12 @@ export default class SketchEditorTest extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Sketch Editor
-        </Text>
         <SketchEditor onSave={(data) => {console.warn(data)}} />
       </View>
     );
   }
 }
 
-const styles = StyleSheet.create({
-
-});
 ```
 ## APIs and Props
 
